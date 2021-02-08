@@ -178,6 +178,10 @@ footer{
   color: #ffffff;
 }
 
+.row{
+  display: flex;
+  flex-direction: row;
+
 .copyright{
   text-align: center;
 }
