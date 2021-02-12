@@ -236,11 +236,40 @@ footer{
   }
 }
 
+.type{
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.items{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.total{
+  display: flex;
+  font-weight: bold;
+  text-align: right;
+}
+
+.endPrice{ 
+  display: flex;
+  flex-direction: column;
+}
+
+.endText{
+  display: flex;
+  flex-direction: column;
+}
+
 /*
   help! Het lettertype wordt om een of andere reden niet goed geladen... Misschien heeft het iets met het pad naar de fonts te maken?
 */
 @font-face {
-  font-family: 'Heartbeat';
+  font-family: "Heartbeat";
   src:  url('fonts/heartbeat.eot') format('eot'),
         url('fonts/heartbeat.otf') format('otf'),
         url('fonts/heartbeat.woff') format('woff'),
