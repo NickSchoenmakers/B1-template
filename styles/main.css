@@ -270,6 +270,20 @@ footer{
   justify-content: space-around;
 }
 
+.productTop{
+  display: flex;
+  justify-content: space-around;
+}
+
+.productBeschrijving{
+  display: flex;
+  justify-content: space-around;
+}
+
+.productText span{
+  font-weight: bold;
+}
+
 /*
   help! Het lettertype wordt om een of andere reden niet goed geladen... Misschien heeft het iets met het pad naar de fonts te maken?
 */
